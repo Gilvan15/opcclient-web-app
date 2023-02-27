@@ -3,7 +3,7 @@ import ChartLine from "../components/ChartLine";
 const Users = () => {
   return (
     <>
-      <h1>Exemplos Gráfico-01 ReacJs - ApexCharts</h1>
+      <h2>Exemplos Gráfico-01 ReacJs - ApexCharts</h2>
       <ChartLine />
 
     </>
