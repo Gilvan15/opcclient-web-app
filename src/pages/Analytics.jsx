@@ -1,5 +1,12 @@
+import ChartRealTime from "../components/ChartRealTime";
+
+
 const Analytics = () => {
-  return <div className="title"> Analytics</div>;
+  return (
+    <div>
+      <ChartRealTime />
+    </div>
+  )
 };
 
 export default Analytics;

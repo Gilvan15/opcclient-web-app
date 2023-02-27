@@ -10,12 +10,13 @@ import Analytics from "./pages/Analytics";
 import Order from "./pages/Order";
 import Saved from "./pages/Saved";
 import Setting from "./pages/Setting";
+
 function App() {
   return (
     <Router>
       <SideBar>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/ChartLine" element={<Dashboard/>} />
           <Route path="/users" element={<Users />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="/analytics" element={<Analytics />} />

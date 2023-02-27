@@ -16,6 +16,28 @@ const routes = [
     icon: <FaHome />,
   },
   {
+    path: "/file-manager",
+    name: "Gráficos",
+    icon: <AiTwotoneFileExclamation />,
+    subRoutes: [
+      {
+        path: "/users",
+        name: "Exemplo-1",
+        icon: <FaUser />,
+      },
+      {
+        path: "/ChartLine",
+        name: "Exemplo-2",
+        icon: <FaLock />,
+      },
+      {
+        path: "/analytics",
+        name: "Exemplo-3",
+        icon: <FaMoneyBill />,
+      },
+    ],
+  },
+  {
     path: "/users",
     name: "Users",
     icon: <FaUser />,
@@ -29,28 +51,6 @@ const routes = [
     path: "/analytics",
     name: "Analytics",
     icon: <BiAnalyse />,
-  },
-  {
-    path: "/file-manager",
-    name: "File Manager",
-    icon: <AiTwotoneFileExclamation />,
-    subRoutes: [
-      {
-        path: "/settings/profile",
-        name: "Profile ",
-        icon: <FaUser />,
-      },
-      {
-        path: "/settings/2fa",
-        name: "2FA",
-        icon: <FaLock />,
-      },
-      {
-        path: "/settings/billing",
-        name: "Billing",
-        icon: <FaMoneyBill />,
-      },
-    ],
   },
   {
     path: "/order",

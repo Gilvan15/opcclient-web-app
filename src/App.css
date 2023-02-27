@@ -7,8 +7,13 @@
 .main-container {
   display: flex;
 }
+
 main {
   padding: 10px;
+  width: 100%;
+  background-color: #D8E3DF;
+  
+  
 }
 
 .title {
@@ -19,10 +24,10 @@ main {
 
 /* Sidebar */
 .sidebar {
-  background: #181C2E;
-  color: white;
+  background: #429492;
+  color: #D8E3DF;
   height: 100vh;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .top_section {
@@ -58,9 +63,9 @@ main {
   border: none;
   margin-left: 10px;
   border-radius: 5px;
-  background: rgb(238, 238, 238);
+  background: #D8E3DF;
 
-  color: white;
+  color: #D8E3DF;
 }
 
 .routes {
@@ -71,20 +76,20 @@ main {
 }
 .link {
   display: flex;
-  color: white;
+  color: #D8E3DF;
   gap: 10px;
   padding: 5px 10px;
   border-right: 4px solid transparent;
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .link:hover {
-  border-right: 4px solid white;
-  background: rgb(45, 51, 89);
+  border-right: 4px solid #D8E3DF;
+  background: #4EA0A6;
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .active {
-  border-right: 4px solid white;
-  background: rgb(45, 51, 89);
+  border-right: 4px solid #D8E3DF;
+  background: #4EA0A6;
 }
 .link_text {
   white-space: nowrap;
@@ -93,7 +98,7 @@ main {
 
 .menu {
   display: flex;
-  color: white;
+  color: #D8E3DF;
 
   padding: 5px 10px;
   border-right: 4px solid transparent;
@@ -110,11 +115,11 @@ main {
 }
 .menu_container .link {
   padding-left: 20px;
-  border-bottom: #fff 0.5px solid;
+  border-bottom: #D8E3DF 0.5px solid;
 }
 .logoPets{
-  width: 110px;
-  height: 110px;
-  margin-left: 10px;
+  width: 150px;
+  height: 80px;
+  margin-left: -20px;
   
 }
